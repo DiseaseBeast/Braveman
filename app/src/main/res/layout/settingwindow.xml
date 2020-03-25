@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settingwindow"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:background="@color/colorpop">
+
+    <EditText
+        android:id="@+id/mNumber1Text"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:background="@drawable/top_edittext_bg"
+        android:hint="请输入联系人1手机号"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <EditText
+    android:id="@+id/mNumber2Text"
+    android:layout_width="300dp"
+    android:layout_height="60dp"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+    android:textSize="25sp"
+    android:background="@drawable/top_edittext_bg"
+    android:hint="请输入联系人2手机号"
+    android:gravity="center"
+    android:inputType="number" />
+
+    <EditText
+        android:id="@+id/mNumber3Text"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:background="@drawable/top_edittext_bg"
+        android:hint="请输入紧急邮箱"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/savebtn"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="保存"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:onClick="saveOn"/>
+
+</LinearLayout>
